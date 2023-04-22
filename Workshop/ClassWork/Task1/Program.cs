@@ -19,11 +19,22 @@
 // }
 
 // Task_3: Принимаем N и выдаем последовательность от -N до N.
-Console.WriteLine("Input number: ");
-int N = Convert.ToInt32(Console.ReadLine());
-int M = -N;
-while (M != N + 1){
-    Console.WriteLine(M);
-    M++;
-}
+// Console.WriteLine("Input number: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// int M = -N;
+// while (M != N + 1){
+//     Console.WriteLine(M);
+//     M++;
+// }
+
+// Task_4: на вход принимаем 3-х значное число, вывести последнюю цифру данного числа.
+Console.WriteLine("Введите трёхзначное число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+double a = num / 10;
+int b = Convert.ToInt32(a);
+int c = b * 10;
+int res = num - c;
+Console.WriteLine(res);
+
+
 
