@@ -42,3 +42,14 @@ if (number % 2 == 0) Console.WriteLine($"Введённое число {number} 
 else Console.WriteLine($"Введённое число {number} является нечётным.");
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+Console.WriteLine("   ");
+Console.WriteLine("*  *   *");
+Console.WriteLine("Задача (которая Задача 8): Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.");
+Console.WriteLine("   ");
+Console.WriteLine("Введите число: ");
+int numnum = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+while (i <= numnum){
+    if (i % 2 == 0) Console.WriteLine(i);
+    i++;
+}
